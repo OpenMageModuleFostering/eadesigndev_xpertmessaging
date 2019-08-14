@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <eadesigndevconfig translate="label" module="smsxpertmessaging">
+            <label>EaDesign</label>
+            <sort_order>999</sort_order>
+        </eadesigndevconfig>
+    </tabs>
+
+    <sections>
+        <sms_settings translate="label" module="smsxpertmessaging"> <!--Sections meniu stanga activ cu click-->
+            <label>EaDesign SMS</label>
+            <tab>eadesigndevconfig</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <sms_opt translate="label">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Activat</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+                        <sms_user translate="label" module="core">
+                            <label>User</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sms_user>
+                        <sms_pass translate="label" module="core">
+                            <label>Password</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sms_pass>
+                        <sms_from translate="label" module="core">
+                            <label>From</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Ex: 1245]]></comment>
+                        </sms_from>
+                        <sms_cc translate="label" module="core">
+                            <label>Cod tara</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Ex: +40]]></comment>
+                        </sms_cc>
+                        <sms_code translate="label" module="core">
+                            <label>Cod sender</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sms_code>
+                        <sms_cc translate="label" module="core">
+                            <label>Cod tara</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sms_cc>
+                        <sms_new translate="label" module="core">
+                            <label>Sms new</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>smsxpertmessaging/system_smslist</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Template tranazatonal pentru comanda noua]]></comment>
+                        </sms_new>
+                        <sms_complete translate="label" module="core">
+                            <label>Sms awb</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>smsxpertmessaging/system_smslist</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Template tranazatonal pentru awb nou]]></comment>
+                        </sms_complete>
+                    </fields>
+                </sms_opt>
+            </groups>
+        </sms_settings>
+    </sections>
+</config>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Eadesigndev_Xpertmessaging",
+    "type": "magento-module",
+    "license": "Extension-license-name-(OSL-v3.0)",
+    "homepage": "",
+    "description": "The extension will send sms messages when the user places an order and when is complete.",
+    "authors": [
+    {
+        "name": "EaDesign",
+        "email": "office@eadesign.ro"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

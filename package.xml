@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Eadesigndev_Xpertmessaging</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Extension license name (OSL v3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The extension will send sms messages when the user places an order and when is complete.</summary>
+    <description>The extension integrates Magento with Xpertmessaging. Using this extension ou will be able to send sms messages to your clients when the place an order or when you add tracking numbers. The extension uses transnational emails to send sms.</description>
+    <notes>The first version.</notes>
+    <authors><author><name>EaDesign</name><user>eadesign</user><email>office@eadesign.ro</email></author></authors>
+    <date>2015-11-19</date>
+    <time>08:43:42</time>
+    <contents><target name="magelocal"><dir name="Eadesigndev"><dir name="Smsxpertmessaging"><dir name="Helper"><file name="Data.php" hash="340839062e0ef868c896c5a61da47212"/></dir><dir name="Model"><file name="Observer.php" hash="6027401f1964302a2ba331b7559500df"/><dir name="System"><file name="Smslist.php" hash="c4f0b204cf3170e8f6681d29ea8baaed"/></dir></dir><dir name="etc"><file name="config.xml" hash="8e59350aaa27777429f65fdfedaabea8"/><file name="system.xml" hash="f287a6d412c1b3bcfb041a7b7444dff9"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eadesigndev_Smsxpertmessaging.xml" hash="ba19374d0b3261156bf696e843155849"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.3</max></php></required></dependencies>
+</package>
