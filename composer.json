@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Eadesigndev_Xpertmessaging",
+    "name": "openmage-module-fostering\/eadesigndev_xpertmessaging",
     "type": "magento-module",
-    "license": "Extension-license-name-(OSL-v3.0)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "The extension will send sms messages when the user places an order and when is complete.",
     "authors": [
